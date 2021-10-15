@@ -66,7 +66,7 @@ of `Customer` class.
    - This refactoring uses the design principle "*Prefer composition over inheritance*".
 
 6. *The Missing Refactoring*.  In the final code the `Customer` class still needs a *Move Method* refactoring to remove some unrelated behavior, in my opinion.
-   - What do you think?
+   - What do you think?    
    Agreed, we might want to move method in side `for loop` to `rental.py`. Since, it's use alot of method from the `rental.py`.
 
 ### Python Version
